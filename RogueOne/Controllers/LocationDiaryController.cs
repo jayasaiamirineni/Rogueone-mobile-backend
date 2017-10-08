@@ -16,6 +16,7 @@ namespace RogueOne.Controllers
     public class LocationDiaryController : ApiController
     {
         ApplicationDbContext db = new ApplicationDbContext();
+        
         //GET api/User/AppUsers
         [Route("AppUsers")]
         [System.Web.Mvc.OutputCache(Duration = 1000, VaryByParam = "none")]
